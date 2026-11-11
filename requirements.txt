@@ -1,0 +1,42 @@
+# Web 框架与服务器
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# AI 与 LangChain 生态
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+langchain-chroma>=0.1.0
+langchain-text-splitters>=0.0.1
+langgraph>=0.0.30
+langgraph-checkpoint-sqlite>=1.0.0
+
+# 向量数据库
+chromadb>=0.4.22
+
+# 阿里云 DashScope SDK (用于 Embedding)
+dashscope>=1.14.0
+
+# 联网搜索
+tavily-python>=0.3.0
+
+# 前端界面
+gradio>=4.0.0
+
+# 数据处理与解析
+pandas>=2.1.0
+openpyxl>=3.1.0
+python-docx>=1.0.0
+
+# 数据库
+sqlite-utils>=3.35
+
+# 认证与加密
+PyJWT>=2.8.0
+passlib[bcrypt]>=1.7.4
+
+# 工具与日志
+python-dotenv>=1.0.0
+concurrent-log-handler>=0.9.24
+requests>=2.31.0
